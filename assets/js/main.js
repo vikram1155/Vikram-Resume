@@ -36,8 +36,8 @@ const sr = ScrollReveal({
     reset: true
 });
 
-sr.reveal(`.home__data, .home__img .home__social, .about__img, .about__text, .sectionnn-title, .skills__data, .work__text, .section-title, .work__img, .section-title, .footer__title, .footer__social,
-            .about__data, .about__img,
+sr.reveal(`.home__data, .home__img, .about__img, .about__text, .sectionnn-title, .skills__data, .work__text, .section-title, .work__img, .section-title, .footer__title, .footer__social,
+            .about__data, .about__img, .home__img, .home__social, 
             .services__content, .menu__content,
             .app__data, .app__img,
             .contact__data, .contact__button,
