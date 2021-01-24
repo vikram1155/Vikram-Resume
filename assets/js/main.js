@@ -25,6 +25,10 @@ function linkAction() {
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
 
+
+
+
+/*==================== SCROLL REVEAL ANIMATION ====================*/
 const sr = ScrollReveal({
     origin: 'top',
     distance: '30px',
@@ -32,8 +36,7 @@ const sr = ScrollReveal({
     reset: true
 });
 
-sr.reveal(`.sectionn-title, .section-title, .sectionnn-title, .home__data, .home__title, .about__text. .about__img, .skills__data, .skills__img, .work__img, .work__text,
-.home__img,.about__container, .contact__input,
+sr.reveal(`.home__data, .home__img .home__social, .about__img, .about__text, .sectionnn-title, .skills__data, .work__text, .section-title, .work__img, .section-title, .footer__title, .footer__social,
             .about__data, .about__img,
             .services__content, .menu__content,
             .app__data, .app__img,
