@@ -23,3 +23,21 @@ function linkAction() {
 }
 
 navLink.forEach(n => n.addEventListener('click', linkAction))
+
+
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '30px',
+    duration: 1200,
+    reset: true
+});
+
+sr.reveal(`.sectionn-title, .section-title, .sectionnn-title, .home__data, .home__title, .about__text. .about__img, .skills__data, .skills__img, .work__img, .work__text,
+.home__img,.about__container, .contact__input,
+            .about__data, .about__img,
+            .services__content, .menu__content,
+            .app__data, .app__img,
+            .contact__data, .contact__button,
+            .footer__content`, {
+    interval: 200
+})
